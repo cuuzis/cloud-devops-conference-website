@@ -368,7 +368,7 @@ button:focus {
 }
 
 .mu-nav-show {
-	top: 0px;
+	top: 0;
 }
 
 #mu-hero .navbar-default .navbar-brand {
@@ -706,6 +706,14 @@ button:focus {
 	font-size: 12px;
 }
 
+.mu-event-timeline ul li:nth-child(2n) .fuq:before {
+    float: right;
+}
+
+.mu-event-timeline ul li:nth-child(2n+1) .fuq:before {
+    float: left;
+}
+
 
 /*--------------------*/
 /* SPEAKERS */
@@ -845,7 +853,7 @@ button:focus {
 
 .mu-venue-address h3 {
 	margin-top: 15px;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .mu-venue-address h4 {
@@ -1456,6 +1464,11 @@ button:focus {
 		margin-left: 0;
 	}
 
+    .mu-event-timeline ul li:nth-child(2n) .fuq:before,
+    .mu-event-timeline ul li:nth-child(2n+1) .fuq:before {
+        float: right;
+    }
+
 	.mu-video-iframe-area {
 		padding: 16% 5%;
 	}
@@ -1815,9 +1828,7 @@ button:focus {
 }
 
 .fuq:before {
-    float: right;
     color: #ee6e73;
-
 }
 
 .fuq-angle-up:before {
