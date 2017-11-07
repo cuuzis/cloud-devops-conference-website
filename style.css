@@ -448,7 +448,7 @@ button:focus {
 
 
 #mu-video {
-	background-image: url("assets/images/about-video-bg.jpg");
+	/*background-image: url("assets/images/about-video-bg.jpg");*/
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -789,8 +789,8 @@ button:focus {
 	transition: all 0.5s;
 }
 
-.mu-single-speakers-blocks {
-
+.mu-single-speakers-blocks p {
+    text-align: justify;
 }
 
 .mu-single-speakers-blocks img {
@@ -1825,6 +1825,7 @@ button:focus {
 
 .panel-body p {
     font-size: 14px;
+    text-align: justify;
 }
 
 .fuq:before {
@@ -1837,4 +1838,12 @@ button:focus {
 
 .fuq-angle-down:before {
     content: "∨";
+}
+
+.fuq {
+    min-height: 45px;
+}
+
+#background p {
+    text-align: justify;
 }
