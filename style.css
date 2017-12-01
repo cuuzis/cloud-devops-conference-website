@@ -661,6 +661,7 @@ button:focus {
 .mu-event-timeline ul li .mu-single-event img {
 	height: 80px;
 	width: 80px;
+    margin-bottom: 10px;
 	float: left;
 	border-radius: 50%;
 	margin-right: 15px;
@@ -946,7 +947,7 @@ button:focus {
 
 .mu-register-btn {
 	background-color: #fff;
-	border: 1px solid #555;
+	border: 1px solid transparent;
 	color: #555;
 	margin-top: 20px;
 	padding: 10px 40px;
@@ -1080,34 +1081,30 @@ button:focus {
 /* SPONSORS */
 /*--------------------*/
 
-#mu-sponsors {
-	background-color: #fff;
-	display: inline;
-	float: left;
-	width: 100%;
+#mu-committee, #mu-sponsors {
+    background-color: #fff;
+    display: inline;
+    float: left;
+    width: 100%;
 }
 
 .mu-sponsors-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
-	width: 100%;
-}
-
-.mu-sponsors-content {
-	display: inline;
-	float: left;
-	margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 80px;
 	width: 100%;
 }
 
 .mu-sponsors-single {
-	background: #eee;
-	display: inline;
-	float: left;
-	margin-top: 10px;
-	margin-bottom: 15px;
-	width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.mu-sponsors-single img {
+    margin-top: 50px;
+    max-height: 100px;
+    max-width: none;
 }
 
 
@@ -1309,7 +1306,7 @@ button:focus {
 
 
 #mu-footer {
-	background-color: #f8f8f8;
+	background-color: #fff;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1812,7 +1809,7 @@ button:focus {
     border-radius: 50%;
     height: 200px;
     min-width: 200px;
-    padding: 20px;
+    margin: 20px;
 }
 
 .mu-committee h3 {
@@ -1833,15 +1830,19 @@ button:focus {
 }
 
 .fuq-angle-up:before {
-    content: "∧";
+    content: "\f106"; /*content: "∧";*/
+    font: normal normal normal 18px/1 FontAwesome;
+    margin-bottom: 15px;
 }
 
 .fuq-angle-down:before {
-    content: "∨";
+    content: "\f107"; /*content: "∨";*/
+    font: normal normal normal 18px/1 FontAwesome;
+    margin-bottom: 15px;
 }
 
 .fuq {
-    min-height: 45px;
+    min-height: 55px;
 }
 
 #background p {
