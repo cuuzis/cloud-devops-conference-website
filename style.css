@@ -1103,8 +1103,9 @@ button:focus {
 
 .mu-sponsors-single img {
     margin-top: 50px;
+    margin-left: -75px;
     max-height: 100px;
-    max-width: none;
+    max-width: 300px;
 }
 
 
@@ -1717,6 +1718,9 @@ button:focus {
 		font-size: 14px;
 	}
 
+    .mu-sponsors-single img {
+        margin-left: auto;
+    }
 
 }
 
