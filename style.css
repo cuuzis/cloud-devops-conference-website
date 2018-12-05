@@ -131,6 +131,10 @@ del{
 	text-decoration-color: #ee6e73;
 }
 
+emph{
+	color: #0000EE;
+}
+
 kbd {
 	background-color: #ddd;
 	padding: 4px 6px;
